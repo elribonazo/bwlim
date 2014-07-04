@@ -9,6 +9,6 @@ npm install forever -g (to run the script forever)
 
 Create a file called index.js
 var bandwidth_bit_ps = 100; //bits per second
-var server = require("bwlim").bwlim();
+var server = require("bwlim").bwlim(__dirname,bandwidth_bit_ps);
 
 
