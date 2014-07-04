@@ -1,7 +1,7 @@
 {
   "name": "bwlim",
-  "version": "0.0.0",
-  "description": "",
+  "version": "1.3.0",
+  "description": "Load files with Bandwidth limit",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,10 +10,15 @@
     "type": "git",
     "url": "https://github.com/elribonazo/bwlim.git"
   },
+  "dependencies": {
+    "express": "*",
+    "throttle": "*"
+  },
   "author": "elribonazo <elribonazo@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/elribonazo/bwlim/issues"
   },
-  "homepage": "https://github.com/elribonazo/bwlim"
+  "homepage": "https://github.com/elribonazo/bwlim",
+  "devDependencies": {}
 }
